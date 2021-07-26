@@ -75,11 +75,6 @@ console.log(`Tx was mined in block: ${receipt.blockNumber}`);
         console.log(e);
    
     }
-//  const addLiquidity = await(abiLiq.methods.addLiquidity(
-//         mToken1,
-//         mToken2,
-
-//     ))
 
   };
   init();
