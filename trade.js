@@ -3,7 +3,7 @@ const { ethers } = require('ethers');
 const Web3 = require('web3')
 const dotenv = require('dotenv');
 dotenv.config();
-const address = "wss://rinkeby.infura.io/ws/v3/b376ce5cfc87460399b1971368001a97";
+const address = "wss://rinkeby.infura.io/ws/v3/yourinfuraaddress";
 const web3 = new Web3(address);
 const provider = web3.currentProvider;
 provider.on("connect", function () {
